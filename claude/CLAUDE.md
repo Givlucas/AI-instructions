@@ -47,3 +47,33 @@ Personal development philosophy and working principles.
 ### Code Style
 - Logs should be one line if not written to logging software or following structure for parsing
 - Writing code is easy; knowing what to write is the hard part
+
+## Development Workflow
+
+### Action Framework
+Use the action-lite methodology for structured development work. This ensures design and testing phases are built-in and cannot be skipped.
+
+**When to use action-lite:**
+- Planning complex features or significant changes
+- Work that requires explicit design before implementation
+- Tasks with multiple dependencies or sub-tasks
+- When specifications and testing are critical
+- Any work where skipping design would be risky
+
+**When NOT to use action-lite:**
+- Simple bug fixes with obvious solutions
+- Trivial changes or one-line fixes
+- Exploratory coding or prototyping
+- Quick experiments or investigations
+
+**How to use:**
+- Invoke the `action-framework` skill for detailed methodology and file structure
+- Create action files in markdown following the action-lite protocol
+- Progress through phases: discovery → design → implementation → test → document → publish
+- Use meta-graphs (directories) to break complex actions into manageable sub-actions
+
+**Key principles:**
+- Design is required, not optional
+- Testing is guaranteed, not skipped
+- If implementation or testing fails, cycle back to discovery or design
+- Actions can remain incomplete indefinitely—no artificial deadlines

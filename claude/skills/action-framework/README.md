@@ -6,6 +6,8 @@ This skill contains the Action development methodology and its practical impleme
 
 - **SKILL.md** - Main skill file containing the complete Action framework methodology and action-lite file-based implementation
 - **references/** - Supporting documentation and protocol specifications
+  - **action-lite-protocol.md** - Formal protocol specification
+  - **tdd-integration-guide.md** - Test-Driven Development integration guide
 
 ## Purpose
 

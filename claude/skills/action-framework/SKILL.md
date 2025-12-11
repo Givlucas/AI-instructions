@@ -28,9 +28,30 @@ A development methodology that ensures design and testing are not skipped. The a
 - Follow the specifications
 
 #### 4. Testing
-- Verify against specifications
+- Verify implementation against Statement of Specifications
 - If testing fails → cycle back to Discovery or Design
 - Guaranteed test phase (not optional)
+- Comprehensive verification ensures quality
+
+The testing phase validates that all specifications are met. Unlike traditional Test-Driven Development (TDD) which starts with tests, action-lite establishes specifications during Discovery and verifies during Testing. This approach combines:
+- **Specification-driven verification**: Each specification item must pass
+- **TDD principles**: Systematic testing, fast feedback, cycle-back on failure
+- **Quality guarantee**: Testing cannot be skipped
+
+Testing validates:
+- Functional correctness (does it work as specified?)
+- Technical requirements (right technologies, patterns, standards?)
+- Performance criteria (meets speed, capacity requirements?)
+- Quality attributes (accessibility, security, maintainability?)
+
+**Test-first thinking in action-lite**:
+- Discovery phase: Define what must be tested (specifications)
+- Design phase: Design for testability, specify verification approach
+- Implementation phase: Build to meet specifications
+- Test phase: Verify all specifications independently
+- Cycle back if any specification fails
+
+For comprehensive TDD guidance and how TDD principles integrate with action-lite, see the [TDD Integration Guide](./references/tdd-integration-guide.md).
 
 #### 5. Documentation
 - Capture the analysis of impact
@@ -209,3 +230,13 @@ This structure allows you to:
 - Update state tags as soon as phase changes occur
 - Use meta-graphs to break down complex actions into manageable pieces
 - Maintain acyclic dependency graphs - no circular references
+
+#### Testing Best Practices
+- Write testable specifications during Discovery phase (concrete, measurable, unambiguous)
+- Design with testability in mind (specify how verification will occur)
+- Verify each specification independently in Test phase
+- Use the Verification Agent for objective assessment
+- Cycle back to Design for implementation issues, Discovery for specification issues
+- Document verification approaches in Statement of Design
+- Consider test automation where appropriate
+- Think about testing in every phase, not just Phase 4

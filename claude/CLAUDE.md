@@ -77,3 +77,10 @@ Use the action-lite methodology for structured development work. This ensures de
 - Testing is guaranteed, not skipped
 - If implementation or testing fails, cycle back to discovery or design
 - Actions can remain incomplete indefinitely—no artificial deadlines
+
+**Testing principles:**
+- Testing is guaranteed, not skipped (Phase 4 in action-lite)
+- Specifications define what must be tested (established in Discovery)
+- Verification validates against specifications (specification-driven testing)
+- TDD principles apply: systematic testing, fast feedback, quality focus
+- See action-framework skill for TDD integration guidance

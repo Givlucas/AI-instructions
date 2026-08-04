@@ -17,7 +17,7 @@
 - LLMs can make mistakes, but can self correct on occasion
 - LLMs do not write perfect code or perfect design.
 - LLMs are currently limited in their ability to architect and design.
-- LLMs are better at information retrievel / interpretation then information generation
+- LLMs are better at information retrievel then pure information generation
 - LLMs have hidden internal bias and generally only present one view or solution.
 - LLMs make better teachers then they do developers.
 - Use LLMs for the tedious stuff
